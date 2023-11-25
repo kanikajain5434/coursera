@@ -1,0 +1,99 @@
+@media only screen and (min-width:992px) {
+    * {
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #item {
+        border: 1px solid black;
+        
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .Heading{
+        text-align: right;
+    }
+    .para1{
+        background-color: palevioletred;
+    }
+    .para2{
+        background-color: aqua;
+    }
+    .para3{
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    * {
+        text-align: center;
+        align-items: center;
+    }
+
+    .para1 {
+        float: left;
+        width: 43%;
+        background-color: palevioletred;
+    }
+
+    .para2 {
+        float: right;
+        width: 43%;
+        background-color: aqua;
+    }
+
+    .para3 {
+        clear: both;
+        width: 97%;
+        background-color: yellow;
+    }
+
+    #item {
+        border: 1px solid black;
+        
+        height: 400px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .Heading{
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width:767px) {
+
+    * {
+        text-align: center;
+        align-items: center;
+    }
+
+    #item {
+        border: 1px solid black;
+       
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+    .Heading{
+        text-align: right;
+    }
+    .para1{
+        background-color: palevioletred;
+    }
+    .para2{
+        background-color: aqua;
+    }
+    .para3{
+        background-color: yellow;
+    }
+}
